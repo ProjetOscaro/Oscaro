@@ -198,6 +198,7 @@ p{
   color: #ADADB6;
 }
 
+<<<<<<< HEAD
 .bloc4{
   background-color: #F5F5F5;
   height: 80px;
@@ -220,3 +221,48 @@ p{
 .devis{
   background: #99CA3C;
 }
+=======
+  .bloc4{
+    background-color: #F5F5F5;
+    height: 80px;
+    margin-right: -70px;
+    margin-left: 35px;
+  }
+  .bloc5{
+    background-color: #F5F5F5;
+    height: 80px;
+    margin-right: -70px;
+    margin-left: 35px;
+    margin-top: 30px;
+  }
+  .texte4{
+    color: #144A82;
+    font-size: 13px;
+    font-weight: bold;
+    text-align: center;
+  }
+  .devis{
+    background: #99CA3C;
+  }
+  .titlewline {
+    text-align: center;
+    position: relative;
+    margin-bottom: 20px;
+    color: #564F82;
+  }
+  .titlewline:before, .titlewline:after {
+    content:'';
+    width:50%;
+    border-bottom:1px #564F82 solid;
+    display:inline-block;
+    vertical-align:middle;
+  }
+  .titlewline:before {
+    margin-left:-100%;
+    margin-right:1em
+  }
+  .titlewline:after {
+    margin-right:-100%;
+    margin-left:1em;
+  }
+>>>>>>> 35853f45e59dc20436027f15c960a1b5fe41b532
