@@ -1,5 +1,36 @@
+/* @media only screen and (max-width: 600px) {
+.container{
+width: 100%;
+}
+}
+/* Small devices (portrait tablets and large phones, 600px and up) */
+/* @media only screen and (min-width: 600px) {
+.example {background: green;}
+} */
+/* Medium devices (landscape tablets, 768px and up) */
+/* @media only screen and (min-width: 768px) {
+.example {background: blue;}
+} */
+/* Large devices (laptops/desktops, 992px and up) */
+/* @media only screen and (min-width: 992px) {
+.example {background: orange;}
+} */
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+/* @media only screen and (min-width: 1200px) {
+.col-lg-12
+} */
+*{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
 body{
   font-family: 'Open Sans', sans-serif;
+  font-size: 16px;
+}
+h1{
+  margin-top: 7px;
+  margin-left: -12px;
 }
 h2{
   color: #144A82;
@@ -9,9 +40,38 @@ p{
   font-size: 12px;
   color: #5C5C5C;
 }
+.bgroung {
+  padding-right: 0px;
+  padding-left: 0px;
+  padding-top: 0px;
+  padding-bottom: 0px;
+  background-color: #e9e9e9;
+}
+.container{
+  /* padding-right: 0px;
+  padding-left: 0px; */
+  margin-right: auto;
+  margin-left: auto;
+  width: 1280px;
+}
+.container .jumbotron {
+  border-radius: 0;
+}
+.menu h1{
+  width: 175px;
+  font-size: 11px;
+  color: #144a82;
+  font-weight: 300;
+  text-align: center;
+  /* margin: 0 0 0 0 !important; */
+}
+.ig-center{
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+  vertical-align: middle;
+}
 .press{
-  margin-left: 200px;
-  margin-right: 200px;
   font-size: 12px;
   font-weight: bold;
   text-align: center;
