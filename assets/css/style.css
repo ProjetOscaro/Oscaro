@@ -1,9 +1,43 @@
+body{
+  font-family: 'Open Sans', sans-serif;
+}
+h2{
+  color: #144A82;
+  font-size: 18px;
+}
+p{
+  font-size: 12px;
+  color: #5C5C5C;
+}
+.press{
+  margin-left: 200px;
+  margin-right: 200px;
+  font-size: 12px;
+  font-weight: bold;
+  text-align: center;
+}
+.pressLink{
+  color: #5C5C5C;
+  text-decoration: none;
+}
+.box{
+  border: 1px solid #CACACA;
+  padding: 45px;
+  height: 250px;
+}
+.rightPart{
+  border-left: 60px;
+  height: 200px;
+  overflow-y: scroll;
+}
+.bold{
+  font-weight: bold;
+}
 .title{
   font-size: 20px;
   color: #144A82;
   text-align: center;
   width: 100%;
-  font-family: open-sans;
 }
 .title::before,.title::after{
   content: "";
