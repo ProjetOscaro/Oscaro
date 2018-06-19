@@ -178,6 +178,10 @@ h2{
   color: #5C5C5C;
   text-decoration: none;
 }
+.presseLink:hover{
+  color: #5C5C5C;
+  text-decoration: none;
+}
 .rightPart{
   height: 150px;
   overflow-y: scroll;
