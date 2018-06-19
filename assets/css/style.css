@@ -30,6 +30,9 @@ width: 100%;
   padding: 0px;
   box-sizing: border-box;
 }
+ul{
+  list-style: none;
+}
 .logo{
   margin-top: 10px;
   margin-left: -50px;
@@ -366,4 +369,7 @@ text-align: center;
 }
 .vehicule{
   color: #ADADB6;
+}
+.bottom-border{
+  border-bottom: 1px solid #E9E9E9; 
 }
