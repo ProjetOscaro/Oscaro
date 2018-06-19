@@ -131,7 +131,7 @@ p{
 .imgFEu{
   height: 39px;
   width: 40px;
-  background: url(hp-idvehicule-sprite.png) -42px -40px;
+  background: url(assets/img/hp-idvehicule-sprite.png) -42px -40px;
 }
 .immat{
   font-size: 15px;
@@ -171,7 +171,7 @@ p{
 .imgV{
   height: 39px;
   width: 40px;
-  background: url(hp-idvehicule-sprite.png) -52px -81px;
+  background: url(assets/img/hp-idvehicule-sprite.png) -52px -81px;
 }
 .texte2{
   font-size: 10px;
@@ -191,7 +191,7 @@ p{
 .imgP{
   height: 39px;
   width: 40px;
-  background: url(hp-idvehicule-sprite.png) -52px -81px;
+  background: url(assets/img/hp-idvehicule-sprite.png) -52px -81px;
 }
 .texte3{
   font-size: 10px;
@@ -218,6 +218,15 @@ p{
 }
 .devis{
   background: #99CA3C;
+  color:white;
+  text-align: center;
+  margin-left: 65px
+}
+.OK2{
+  background-color: #99CA3C;
+  color: white;
+  border: 4px solid  #99CA3C;
+  font-size: 15px
 }
 .titlewline {
   font-size: 18px;
