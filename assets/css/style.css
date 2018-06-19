@@ -292,3 +292,75 @@ text-align: center;
   margin-left: 0px;
   background-color: #e9e9e9;
 }
+.info{
+  font-size: 12px;
+  font-weight: bold;
+  text-align: center;
+  line-height: 14px;
+  font-weight: 700;
+  color: #5c5c5c;
+}
+.icon{
+	display: block;
+  width: 65px;
+  height: 45px;
+  background: url("../img/logo2OSC.png") 0 0;
+}
+.icon_euros{
+  width: 65px;
+  height: 45px;
+  background: url("../img/logo2OSC.png") 0 -46px;
+}
+.icon_pay{
+  width: 65px;
+  height: 45px;
+  background: url("../img/logo2OSC.png") -190px 0;
+}
+.icon_deliver{
+  width: 65px;
+  height: 45px;
+  background: url("../img/logo2OSC.png") -66px -46px;
+  }
+.icon_return{
+  width: 65px;
+  height: 45px;
+  background: url("../img/logo2OSC.png") 0 0;
+  }
+.icon_book{
+  width: 65px;
+  height: 45px;
+  background: url("../img/logo2OSC.png") -197px -49px;
+  }
+.carouselbrand .carousel-control.left, .carouselbrand .carousel-control.right{
+  background-image: none;
+  left: -5px;
+  }
+.carouselbrand .carousel-control {
+	width: 100%;
+	color: #5c5c5c;
+	bottom: 13px;
+  }
+.carousel-control.left {
+  right: auto;
+  left: 0;
+  }
+.carousel-control.right {
+	right: 0;
+	left: auto;
+  }
+.nav-link{
+  margin left: auto;
+  color: black;
+  background-color: #F0F0F0;
+  height: 50px;
+  margin: 5px 5px;
+}
+.nav a.active{
+  background-color: #144A82;
+}
+.nav a:hover{
+	border-color: #F0F0F0 #F0F0F0 #FFFFFF #F0F0F0;
+}
+.glyphicon{
+  color: black;
+}
