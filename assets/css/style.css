@@ -64,34 +64,34 @@ p{
   border: 1px solid #99CA3C;
   padding: 20px 10px 20px 15px;
   height: 190px;
-  margin-left: -70px;
-  margin-right: 35px;
+  margin-left: -10px;
+  margin-right: 5px;
 }
 .bloc2{
   background-color: #F5F5F5;
   border: 1px solid #99CA3C;
   padding: 20px 10px 20px 15px;
   height: 190px;
-  margin-left: -35px;
+  margin-left: -5px;
 }
 .bloc3{
   background-color: #F5F5F5;
   border: 1px solid #99CA3C;
   padding: 20px 10px 20px 15px;
   height: 190px;
-  margin-right: -35px;
+  margin-right: -5px;
 }
 .bloc4{
   background-color: #F5F5F5;
   height: 80px;
-  margin-right: -70px;
-  margin-left: 35px;
+  margin-right: -10px;
+  margin-left: 5px;
 }
 .bloc5{
   background-color: #F5F5F5;
   height: 80px;
   margin-right: -70px;
-  margin-left: 35px;
+  margin-left: 5px;
   margin-top: 30px;
 }
 .box{
