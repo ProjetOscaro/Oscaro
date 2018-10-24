@@ -1,0 +1,385 @@
+/* @media only screen and (max-width: 600px) {
+.container{
+width: 100%;
+}
+}
+/* Small devices (portrait tablets and large phones, 600px and up) */
+/* @media only screen and (min-width: 600px) {
+.example {background: green;}
+} */
+/* Medium devices (landscape tablets, 768px and up) */
+/* @media only screen and (min-width: 768px) {
+.example {background: blue;}
+} */
+/* Large devices (laptops/desktops, 992px and up) */
+/* @media only screen and (min-width: 992px) {
+.example {background: orange;}
+} */
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+/* @media only screen and (min-width: 1200px) {
+.col-lg-12
+} */
+
+@media screen and (max-width: 992px){
+.leftPart{
+  display: none;
+}
+}
+*{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+.logo{
+  margin-top: 10px;
+  margin-left: -50px;
+}
+body{
+  font-family: 'Open Sans', sans-serif;
+  font-size: 16px;
+  display: block;
+}
+h1{
+  margin-top: 7px;
+  margin-left: -47px;
+}
+h2{
+  color: #144A82;
+  font-size: 18px;
+  line-height: 21px;
+  margin-left: 40px;
+}
+.Aide{
+  background-color: white;
+  color: #144A82;
+  border: 4px solid  white;
+  font-size: 15px;
+}
+.blueco{
+  margin-left: 83px;
+  margin-top: -170px
+}
+.bgroung {
+  padding-right: 0px;
+  padding-left: 0px;
+  padding-top: 0px;
+  padding-bottom: 0px;
+  background-color: #E9E9E9;
+}
+.bloc1{
+  background-color: #99CA3C;
+  text-align: left;
+  border: 1px solid #99CA3C;
+  padding: 20px 10px 20px 15px;
+  height: 190px;
+  margin-top: 20px;
+}
+.bloc2{
+  background-color: #F5F5F5;
+  border: 1px solid #99CA3C;
+  padding: 20px 10px 20px 15px;
+  height: 190px;
+  margin-top: 20px;
+}
+.bloc3{
+  background-color: #F5F5F5;
+  border: 1px solid #99CA3C;
+  padding: 20px 10px 20px 15px;
+  height: 190px;
+  margin-top: 20px;
+}
+.bloc4{
+  background-color: #F5F5F5;
+  height: 80px;
+  margin-top: 20px;
+}
+.bloc5{
+  background-color: #F5F5F5;
+  height: 80px;
+  padding: 0px 10px 20px 15px;
+  margin-top: 30px;
+}
+.box{
+  border: 1px solid #CACACA;
+  padding: 45px 0px 45px 20px;
+  height: 250px;
+}
+.boxLink{
+  text-decoration: underline;
+  color: #144A82;
+}
+.devis{
+  background: #99CA3C;
+  margin-left: 70px
+}
+.exemple{
+  font-size: 10px;
+}
+.ig-center{
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+  vertical-align: middle;
+}
+.imgFEu{
+  height: 39px;
+  width: 40px;
+  background: url(../img/hp-idvehicule-sprite.png) -42px -40px;
+}
+.imgP{
+  height: 41px;
+  width: 42px;
+  background: url(../img/hp-idvehicule-sprite.png) -52px -80px;
+}
+.imgV{
+  height: 40px;
+  width: 42px;
+  background: url(../img/hp-idvehicule-sprite.png) -0px -40px;
+}
+.immat{
+  font-size: 15px;
+  color: white;
+  text-align: left;
+}
+.menu h1{
+  width: 175px;
+  font-size: 11px;
+  color: #144A82;
+  font-weight: 300;
+  text-align: center;
+  /* margin: 0 0 0 0 !important; */
+}
+.OK{
+  background-color: #CACACA;
+  color: white;
+  border: 4px solid  #CACACA;
+  font-size: 15px;
+}
+.OK2{
+  background-color: #99CA3C;
+  color: white;
+  border: 4px solid  #99CA3C;
+  font-size: 15px;
+}
+.Portefeuille{
+  font-size: 15px;
+  color: #ADADB6;
+}
+.presse{
+  font-size: 12px;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 60px;
+}
+.presseLink{
+  color: #5C5C5C;
+  text-decoration: none;
+}
+.presseLink:hover{
+  color: #5C5C5C;
+  text-decoration: none;
+}
+.rightPart{
+  height: 150px;
+  overflow-y: scroll;
+}
+.sTitle{
+  font-size: 12px;
+  color: #144A82;
+  text-align: center;
+}
+.textBox{
+  font-size: 12px;
+  line-height: 14px;
+  color: #5C5C5C;
+  margin-left: 40px;
+}
+.texte{
+  font-size: 10px;
+  color: black;
+}
+.texte2{
+  font-size: 10px;
+  color: #ADADB6;
+}
+.texte3{
+  font-size: 10px;
+  color: #ADADB6;
+}
+.texte4{
+  color: #144A82;
+  font-size: 13px;
+  font-weight: bold;
+  text-align: center;
+}
+.title{
+  font-size: 20px;
+  color: #144A82;
+  text-align: center;
+  width: 100%;
+  margin-top: 60px;
+}
+.title::before,.title::after{
+  content: "";
+  width: 42%;
+  border-bottom: 1px solid #E9E9E9;
+  display: inline-block;
+  vertical-align: middle;
+}
+.title::before{
+  margin-left: -100%;
+}
+.title::after{
+  margin-right: -100%;
+}
+.bgroung-foot{
+  padding-right: 0px;
+  padding-left: 0px;
+  padding-top: 30%;
+  padding-bottom: -15%;
+  margin-right: 0px;
+  margin-left: 0px;
+  background-color: #e9e9e9;
+}
+p{
+  text-align: center;
+  padding-top: 15px;
+}
+.row-nav{
+  background: #144a82;
+height: 25px;
+line-height: 25px;
+font-size: 13px;
+list-style-type: disc;
+-webkit-padding-start: 0;
+margin-bottom: 5px;
+z-index: 2;
+padding-left: 0;
+margin-left: 175px;
+width: 98.661%;
+margin-top: -103px;
+}
+.sm-foot {
+  font-size: 11px;
+}
+.glory{
+  background: #f5f5f5;
+margin-top: 32px;
+font-weight: bold;
+padding-top: 70px;
+text-align: center;
+}
+.capital{
+  width: 180px;
+  display: inline-block;
+  vertical-align: middle;
+  float: left;
+  margin-left: 200px;
+  margin-top: -55px;
+}
+.more-p{
+  display: inline-block;
+  margin: 0 0 10px;
+}
+.reduce{
+  width : 60%;
+}
+.top{
+  margin-top: 10px;
+}
+.bgroung-foot{
+  padding-right: 0px;
+  padding-left: 0px;
+  padding-top: 30%;
+  padding-bottom: -15%;
+  margin-right: 0px;
+  margin-left: 0px;
+  background-color: #e9e9e9;
+}
+.info{
+  font-size: 12px;
+  font-weight: bold;
+  text-align: center;
+  color: #5c5c5c;
+}
+.icon{
+	display: block;
+  width: 65px;
+  height: 45px;
+  background: url("../img/logo2OSC.png") 0 0;
+}
+.icon_euros{
+  width: 65px;
+  height: 45px;
+  background: url("../img/logo2OSC.png") 0 -46px;
+}
+.icon_pay{
+  width: 65px;
+  height: 45px;
+  background: url("../img/logo2OSC.png") -190px 0;
+}
+.icon_deliver{
+  width: 65px;
+  height: 45px;
+  background: url("../img/logo2OSC.png") -66px -46px;
+  }
+.icon_return{
+  width: 65px;
+  height: 45px;
+  background: url("../img/logo2OSC.png") 0 0;
+  }
+.icon_book{
+  width: 65px;
+  height: 45px;
+  background: url("../img/logo2OSC.png") -197px -49px;
+  }
+.carouselbrand .carousel-control.left, .carouselbrand .carousel-control.right{
+  background-image: none;
+  left: -5px;
+  }
+.carouselbrand .carousel-control {
+	width: 100%;
+	color: #5c5c5c;
+	bottom: 13px;
+  }
+.carousel-control.left {
+  right: auto;
+  left: 0;
+  }
+.carousel-control.right {
+	right: 0;
+	left: auto;
+  }
+.nav-link{
+  margin left: auto;
+  color: black;
+  background-color: #F0F0F0;
+  height: 50px;
+  margin: 5px 5px;
+}
+.nav a.active{
+  background-color: #144A82;
+}
+.nav a:hover{
+	border-color: #F0F0F0 #F0F0F0 #FFFFFF #F0F0F0;
+}
+.glyphicon{
+  color: black;
+}
+.menuf{
+list-style-type: none;
+}
+.menuF{
+font-size: 13px;
+text-decoration: none;
+color: #144a82;
+}
+.menuFF{
+list-style-type: none;
+font-size: 13px;
+font-weight: bold;
+color: #144a82;
+}
+.just{
+
+}
